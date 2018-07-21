@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 600px) {
+    .column2 {
+        width: 100%;
+    }
+	
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+	float: left;
+    width: 50%;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+}
+.css-slider-wrapper {
+  display: block;
+  background: #FFF;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
